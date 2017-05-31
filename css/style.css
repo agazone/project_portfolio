@@ -21,35 +21,44 @@ body {
 h1 {
     font-family: Roboto;
     font-weight: lighter;
-    font-size: 220px;
+    font-size: 40px;
     color: #fffefe;
     font-weight: 100;
 }
 
-h3, h4 {
+h3 {
     font-family: Roboto;
-    font-size: 100px;
-    color: #fffefe;
+    font-size: 20px;
+    color: #f7f0f0;
+    font-weight: 300;
+}
+
+h4 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #0b0b0b;
     font-weight: 300;
 }
 
 #main {
-    overflow: hidden;
+/*    overflow: hidden;*/
     width: 100%;
+    display: inline-block;
+    position: absolute;
 }
 
-#main a{
-    display: inline-block;
+#main li a{
+    position: absolute;
     float: right;
     color: white;
-    text-align: center;
-    position: fixed;
-    padding: 100px;
-    right: 200px;
-    font-size: 64px;
+/*    text-align: center;*/
+    text-decoration: none;
+    font-size: 14px;
     z-index: 100;
-    top: 0;
+    top: 10;
+    right: 20;
 }
+
 
 .hero-img {
     background-image: url(../images/img/header-background.jpg);
@@ -57,7 +66,7 @@ h3, h4 {
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 1450px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,3 +80,63 @@ h3, h4 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.author {
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+
+.art1 {
+    width: 250px;
+    margin-right: 100px;
+    margin-top: 80px;
+    float: right;
+}
+
+#art1 {
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#skills {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+}
+
+.prolang {
+    margin-right: 40px;
+}
+
+#folio {
+    text-align: center;
+}
+
+#folio img{
+    width: 30%;
+}
+
+#foot {
+    background-color: #182c40;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
