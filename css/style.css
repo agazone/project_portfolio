@@ -134,6 +134,7 @@ p {
     color: white;
     font-size: 20px;
     font-weight: 100;
+    margin-left: 10px;
 }
 
 #contact p {
@@ -144,6 +145,7 @@ address {
     color: #d4cbcb;
     font-size: 10px;
     font-family: Lato;
+    margin-left: 10px;
 }
 
 address a{
@@ -209,13 +211,30 @@ form input:focus{
 
 footer {
     background-color: #142634;
-    padding: 0 0px;
+    padding: 0 60px;
 }
 
+footer p{
+    margin: 0;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+folio-item-1 {
+    background-image: url(../images/img/portfolio4.jpg);
+    width: 33%;
+}
 
+folio-item-2 {
+    background-image: url(../images/img/portfolio2.jpg);
+    width: 33%;
+}
 
-
+folio-item-3 {
+    background-image: url(../images/img/portfolio3.jpg);
+    width: 33%;
+}
 
 
 
