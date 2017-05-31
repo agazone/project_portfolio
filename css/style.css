@@ -130,21 +130,24 @@ p {
     overflow: hidden;
 }
 
-#contact h2 {
+#tine {
     color: white;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 #contact p {
     font-size: 5px !important;
 }
 
-#form input{
-    background-color: #243e5d;
-    
+address {
+    color: #d4cbcb;
+    font-size: 10px;
+    font-family: Lato;
 }
 
 address a{
-     color: #1ac056;
+    color: #1ac056;
     cursor: pointer;
 }
 
@@ -175,19 +178,34 @@ address a{
     margin-top: 0px;
 }
 
-.contact-form input{
-    width: 100%;
+form input{
+    width: 80%;
     padding: 15px;
     margin-bottom: 15px;
     border: 0 solid #376489;
-    background-color: aqua;
+    background-color: #2b4a64;
 }
 
 
+form input:focus{
+    background-color: #426684;
+}
 
+#btn {
+    width: 80px;
+    margin-right: 40px;
+    float: right;
+    color: white;
+    font-weight: 600;
+    background-color: #1ac056;
+    cursor: pointer;
+}
 
-
-
+#btn:hover {
+    background-color: #f4f8f6;
+    color: #1ac056;
+    cursor: pointer;
+}
 
 
 
