@@ -117,25 +117,80 @@ p {
 
 #folio {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 #folio img{
     width: 30%;
 }
 
-#foot {
-    background-color: #182c40;
-    
+#contact {
+    background-color: #213b50;
+    color: white;
+    overflow: hidden;
 }
 
-#foot p, h4 {
+#contact h2 {
     color: white;
+}
+
+#contact p {
+    font-size: 5px !important;
 }
 
 #form input{
     background-color: #243e5d;
     
 }
+
+address a{
+     color: #1ac056;
+    cursor: pointer;
+}
+
+.contact-data, .contact-form {
+    width: 40%;
+    float: left;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.social i{
+    padding: 4px;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.social i:hover{
+    color: #2b4a64;
+    cursor: pointer;
+    border: 1px solid #2b4a64;
+}
+
+.contact-form {
+    margin-top: 0px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0 solid #376489;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
 
 
 
