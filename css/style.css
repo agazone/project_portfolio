@@ -125,12 +125,17 @@ p {
 
 #foot {
     background-color: #182c40;
+    
+}
+
+#foot p, h4 {
     color: white;
 }
 
-
-
-
+#form input{
+    background-color: #243e5d;
+    
+}
 
 
 
