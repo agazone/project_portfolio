@@ -1,0 +1,49 @@
+@media all and (max-width: 1200px) {
+    
+}
+
+@media all and (max-width: 768px) {
+    .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size:  20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    
+    #nav {
+        display: none;
+    }
+    
+    #main, #drop:checked + ul {
+        display: block;
+    }
+    
+    li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    
+    .art1 {
+        width: 100%;
+        padding-left: 80px;
+    }
+    
+    #skills {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    
+}
+
+@media all and (max-width: 480px) {
+    
+}

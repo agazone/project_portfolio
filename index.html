@@ -13,12 +13,17 @@
     <!--link do Font Awesome-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     
+    <!--link responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
 <body>
   
   <header>
    <nav id="main">
-            <ul>
+          <label for="drop" class="toggle">MENU</label>
+           <input type="checkbox" id="drop">
+            <ul id="nav">
                 <li><a href="">O mnie</a></li>
                 <li><a href="">Umiejetnosci</a></li>
                 <li><a href="">Portfolio</a></li>
@@ -61,10 +66,40 @@
     
     <section id="folio">
         <h4>Moje<span class="green"> portfolio</span></h4>
-        <div class="folio-items" id="folio-item-1">
-           <div class="folio-item"></div>
-           <div  class="folio-item" id="folio-item-2"></div>
-           <div class="folio-item" id="folio-item-3"></div>  
+        <div class="folio-items">
+           <div class="folio-item" id="folio-item-1">
+               <div class="mask">
+                    <div class="mask-content">
+                       <h3 class="foo">Lorem Ipsum</h3>
+                       <p class="foo">Lorem ipsum dolor sit amet, consectetur adipisicing elit in.</p>
+                       <h4 class="foo">Technologies:</h4>
+                       <p class="foo">Delectus deserunt totam, expedita in.</p>
+                       <i class="fa fa-link" aria-hidden="true"></i>
+                    </div>
+               </div>
+           </div>
+           <div class="folio-item" id="folio-item-2">
+               <div class="mask">
+                   <div class="mask-content">    
+                       <h3 class="foo">Lorem Ipsum Dolor</h3>
+                       <p class="foo">Lorem ipsum dolor sit amet. Delectus deserunt totam, expedita in.</p>
+                       <h4 class="foo">Technologies:</h4>
+                       <p class="foo">Delectus deserunt totam, expedita in.</p>
+                       <i class="fa fa-link" aria-hidden="true"></i>
+                  </div>
+               </div>
+           </div>          
+           <div class="folio-item" id="folio-item-3">
+               <div class="mask">
+                   <div class="mask-content">
+                        <h3 class="foo">Ipsum DeLo</h3>
+                        <p class="foo">Lorem ipsum dolor sit ametin.</p>
+                        <h4 class="foo">Technologies:</h4>
+                        <p class="foo">Delectus deserunt totam, expedita in.</p>
+                        <div><i class="fa fa-link" aria-hidden="true"></i></div>
+                   </div>
+               </div>
+           </div>  
         </div>
     </section>
     
